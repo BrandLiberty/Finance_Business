@@ -796,7 +796,7 @@ ul.slick-dots {
 
 .callback-services {
 	border-top: 1px solid #eee;
-	padding-top: 140px;
+	padding-top: 50px;
 	
 }
 
@@ -855,27 +855,7 @@ ul.slick-dots {
 	box-shadow: none;
 	border: none;
 }
-/* 
-.callback-form .contact-form textarea {
-	border-radius: 20px;
-	height: 120px;
-	max-height: 200px;
-	min-height: 120px;
-	display: inline-block;
-	padding: 15px;
-	color: #6a6a6a;
-	font-size: 13px;
-	text-transform: none;
-	box-shadow: none;
-	border: none;
-	margin-bottom: 35px;
-}
 
-.callback-form .contact-form textarea:focus {
-	outline: none;
-	box-shadow: none;
-	border: none;
-} */
 
 .callback-form .contact-form ::-webkit-input-placeholder { /* Edge */
   color: #aaa;
@@ -981,11 +961,17 @@ footer h4 {
 footer p {
 	color: #fff;
 	display: flex;
-	justify-content: center;
+	text-align: center;
 	padding-left: 75px;
 	padding-right: 75px;
 }
+footer .pp{
+	margin-left: 43%;
 
+}
+footer .pp a{
+	color: rgb(242, 66, 66);
+}
 .footer-logo-style1{
 	display: flex;
 	justify-content: center;
@@ -1047,83 +1033,7 @@ footer ul.menu-list li a:hover {
 	color: #a4c639;
 }
 
-/* footer .contact-form input {
-	border-radius: 20px;
-	height: 40px;
-	line-height: 40px;
-	display: inline-block;
-	padding: 0px 15px;
-	color: #aaa!important;
-	background-color: #343434;
-	font-size: 13px;
-	text-transform: none;
-	box-shadow: none;
-	border: none;
-	margin-bottom: 15px;
-}
 
-footer .contact-form input:focus {
-	outline: none;
-	box-shadow: none;
-	border: none;
-	background-color: #343434;
-}
-
-footer .contact-form textarea {
-	border-radius: 20px;
-	height: 120px;
-	max-height: 200px;
-	min-height: 120px;
-	display: inline-block;
-	padding: 15px;
-	color: #aaa!important;
-	background-color: #343434;
-	font-size: 13px;
-	text-transform: none;
-	box-shadow: none;
-	border: none;
-	margin-bottom: 15px;
-}
-
-footer .contact-form textarea:focus {
-	outline: none;
-	box-shadow: none;
-	border: none;
-	background-color: #343434;
-}
-
-footer .contact-form ::-webkit-input-placeholder { /* Edge 
-  color: #aaa;
-}
-footer .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 
-  color: #aaa;
-}
-footer .contact-form ::placeholder {
-  color: #aaa;
-}
-
-footer .contact-form button.filled-button {
-	background-color: transparent;
-	color: #fff;
-	background-color: #a4c639;
-	border: none;
-	font-size: 13px;
-	text-transform: uppercase;
-	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
-	outline: none;
-	box-shadow: none;
-	text-shadow: none;
-	cursor: pointer;
-}
-
-footer .contact-form button.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
-} */
 
 /* Sub-footer Style */
 
